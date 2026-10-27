@@ -1,4 +1,5 @@
-School Library Management System
+#School Library Management System
+
 Eine benutzerfreundliche, leichtgewichtige und mandantenfähige Schulbibliotheks-Verwaltungssoftware, die speziell für den unkomplizierten Einsatz durch nicht-technisches Personal entwickelt wurde. Das System läuft containerisiert und bietet eine komfortable One-Click-Bedienung unter Windows.
 
 🚀 Hauptmerkmale
