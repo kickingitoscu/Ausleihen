@@ -1,0 +1,13 @@
+services:
+  library-app:
+    build: .
+    container_name: school_library_system
+    command: streamlit run app.py --server.address=0.0.0.0 --server.fileWatcherType=none
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      # Mount local SQLite database directory so data persists outside the container
+      - ./data:/app/data
